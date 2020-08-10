@@ -15,11 +15,19 @@ elif expression:
     pass
 else:
     pass """
+name_1 = input("Enter your name: ")
+age_1 = int(input("Enter your age "))
 
-num1 = int(input("Enter a number bigger than the next: "))
-num2 = int(input("Enter a number smaller than the before: "))
+print("User 2")
+print("*"*10)
 
-if num1 > num2:
-    print(f"The {num1} is bigger than {num2}")
+name_2 = input("Enter your name:")
+age_2 = int(input("Enter your age: "))
+
+if age_1 > age_2:
+    print(f"{name_1} is {age_1} years old and is older than {name_2} that is {age_2} years old")
+elif age_1 == age_2:
+        print(f"{name_1} and {name_2} are the same age, {age_2} years old")
 else:
-    print(f"The {num1} is´nt bigger than {num2}")
+    print(f"{name_1} is {age_1} years old and is younger than {name_2} that is {age_2} years old")
+    
