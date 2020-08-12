@@ -1,13 +1,4 @@
-""" week = ['M','T','W','T','F','S','S']
-
-for day in week:
-    print(f"The day is {day}") """
-
-""" iter('cadena') # cadena
-iter(['a', 'b', 'c']) # lista
-iter(('a', 'b', 'c')) # tupla
-iter({'a', 'b', 'c'}) # conjunto
-iter({'a': 1, 'b': 2, 'c': 3}) # diccionario """
+i
 
 week = ['M','T','W','T','F','S','S']
 iterator = iter(week)
@@ -19,3 +10,24 @@ next(iterator)
 next(iterator)
 next(iterator)
 next(iterator)
+
+students = {
+    'Mexico': 80,
+    'United stated':40,
+    'Spain': 14,
+}
+
+""" for country in students:
+    print(country)
+
+for country in students.keys():
+    print(country) """
+
+for number_of_students in students.values():
+    print(number_of_students)
+
+for number_of_students, country in students.items():
+    print( country, number_of_students)
+
+
+    
