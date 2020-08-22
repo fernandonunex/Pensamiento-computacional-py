@@ -21,6 +21,6 @@ while i < 5:
         print("Please enter a number")
 
 
-resultados = apply_operations(add_two, numbers)
+resultados = apply_operations(multiply_for_two, numbers)
 for resultado in resultados:
     print(resultado)
